@@ -1,6 +1,6 @@
 // here we will call user defined package
 package JavaBasic;
-import OppsJava.calculate;
+import JavaBasic.OppsJava.calculate;
 import java.util.Scanner;
 
 public class cwm_12_userPackage
