@@ -40,6 +40,7 @@ public class cwm2_constructer {
     public static void main(String[] args)
     {
         // calling class with parameter constructor method
+        // calling class with parameter constructor method
         testing cons = new testing("Manish1", 6);
         System.out.println(cons.getName());
 
