@@ -2,10 +2,12 @@ package JavaBasic.OppsJava;
 import java.util.Random;
 import java.util.Scanner;
 
+// Class game used to play game
 class Game{
      private int noOfGuess;
      int userNum ,genNum;
 
+// Constructor of game class
     public Game()
     {
         Random random = new Random();
@@ -13,12 +15,14 @@ class Game{
         genNum = random.nextInt(101);
     }
 
+// used to take user input
     public void takeUserInput() {
         System.out.println("Enter the number : ");
         Scanner sc = new Scanner(System.in);
          userNum = sc.nextInt();
     }
 
+// check if enter number is correct or not
     public int isCorrectNumber() {
         if (userNum==genNum)
         {
@@ -30,6 +34,7 @@ class Game{
         }
     }
 
+// used to set no of guess
    void setNoOfGuess()
    {
         if (isCorrectNumber()==1)
@@ -38,16 +43,21 @@ class Game{
         }
    }
 
+// used to get number of guess
     public int getNoOfGuess() {
         return noOfGuess;
     }
 }
 
+
+// main method class
 public class exercise_2_GuessTheNumber
 {
     public static void main(String[] args)
      {
-         Game obj = new Game();
+         Game obj = new Game();    //instantation of game class
+
+         // checking all condition of game
         while(true)
         {
             obj.takeUserInput();
