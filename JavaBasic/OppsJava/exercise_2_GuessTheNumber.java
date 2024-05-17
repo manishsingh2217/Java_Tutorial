@@ -70,6 +70,7 @@ public class exercise_2_GuessTheNumber
             {
                 System.out.println("Your enter number is wrong and  less than Guess number ");
                 obj.setNoOfGuess();
+
             }
             else
             {

@@ -17,7 +17,7 @@ public class cwm_12_userPackage
        calculate calc= new calculate();   // creating object of hello class
         System.out.println("sum of number is "+calc.add(a,b));  // calling add class of OppsJava package
         System.out.println("Difference of number is "+calc.difference(a,b));  // calling difference class of OppsJava
-        // package
+        /* package */
         System.out.println("product of number is "+calc.product(a,b)); //calling product class of OppsJava package
     }
 }
