@@ -23,6 +23,6 @@ public class cwm_4_ConstructerInheritance
 {
     public static void main(String[] args)
     {
-        derived1 d = new derived1();
+        derived1 d1= new derived1();
     }
 }
