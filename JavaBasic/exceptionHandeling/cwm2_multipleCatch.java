@@ -41,5 +41,3 @@ public class cwm2_multipleCatch
 
     }
 }
-
-// this is my comment
