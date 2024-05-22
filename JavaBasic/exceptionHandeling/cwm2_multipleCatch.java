@@ -22,7 +22,7 @@ public class cwm2_multipleCatch
             {
                 arr[i] = i + 5;
             }
-            System.out.println(arr[10]);
+            System.out.println(arr[4]);
 
             for(int j = 0; j<5; j++){
                 Scanner sc = new Scanner(System.in);
@@ -41,3 +41,5 @@ public class cwm2_multipleCatch
 
     }
 }
+
+// this is my comment
